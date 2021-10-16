@@ -19,6 +19,14 @@ function typeWriter(text) {
     i++;
     setTimeout(typeWriter, speed);
   }
+  if(i == txt.length){
+    var couple = document.querySelector('.couple');
+    couple.classList.add('wow', 'animate__fadeOut', 'animate__faster');
+couple.addEventListener('animationend', function(){
+  couple.style.visibility = "hidden";
+  couple.classList.add('animate__faster');
+})
+  }
 }
 setTimeout(() => {
   typeWriter();
