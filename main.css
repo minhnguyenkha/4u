@@ -149,6 +149,7 @@ background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, F
 
 .content2{
     position: relative;
+    margin-bottom: 5rem;
 }
 #t1{
     color: #333;
