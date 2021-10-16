@@ -15,7 +15,9 @@ h1.center{
     justify-content: center;
     align-items: center;
     font-size: 8.5vw;
-    width: 	55%;
+}
+.f {
+	    width: 	55%;
     text-align: 	center;	
 }
 .intro a > i{font-size: 10vw;}
