@@ -19,6 +19,7 @@ h1.center{
 .intro a > i{font-size: 10vw;}
 .intro {
     position: relative;
+    margin-bottom: 5rem;
 }
 .intro__text{
     position: absolute;top:20%;left: 50%;transform: translate(-50%, -50%);
