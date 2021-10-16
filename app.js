@@ -57,7 +57,7 @@ function show1(){
     var div = document.createElement('div');
     div.classList.add('md1', 'fixed', 'x');
     div.innerHTML = 
-              `<h1>Woo ! nhưng <span class="as">Ánh&nbspSao</span> thì ở trong anh</h1>`;
+              `<h1>Woo ! Đó là vì sao còn <span class="as">Ánh&nbspSao</span> thì ở trong anh</h1>`;
     return div;
   }
 
