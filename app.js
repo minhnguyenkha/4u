@@ -10,7 +10,7 @@ wow = new WOW(
 )
 wow.init();
 var i = 0;
-var txt = 'Nè, tặng Ánh Sao á !'; /* The text */
+var txt = 'Tặng Ánh Sao nè !'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter(text) {
